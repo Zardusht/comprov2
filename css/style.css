@@ -45,11 +45,11 @@ textarea {
 
 @font-face {
     font-family: neris;
-    src: url(/fonts/Neris-SemiBold.otf);
+    src: url(../fonts/Neris-SemiBold.otf);
 }
 @font-face {
     font-family: neris-bold;
-    src: url(/fonts/Neris-Black.otf);
+    src: url(../fonts/Neris-Black.otf);
 }
 
 * a {
