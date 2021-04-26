@@ -256,6 +256,20 @@
         height: 100px !important;
 
     }
+    .portfolio_box,
+    .portfolio_box_inner,
+    .portfolio_box_back,
+    .portfolio_box_front,
+    .portfolio_box img,
+    .product_box,
+    .product_box_inner,
+    .product_box_back,
+    .product_box_front,
+    .product_box img {
+        width: 176px;
+        height: 256px !important;
+        border-radius: 20px;
+    }
     footer {
         margin-top: 50px;
     }
