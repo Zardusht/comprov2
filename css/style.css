@@ -44,12 +44,13 @@ textarea {
 /***** RESET *****/
 
 @font-face {
+    src: url(../font/Neris-SemiBold.otf);
     font-family: neris;
-    src: url(../fonts/Neris-SemiBold.otf);
 }
 @font-face {
+    src: url(../font/Neris-Black.otf);
     font-family: neris-bold;
-    src: url(../fonts/Neris-Black.otf);
+    
 }
 
 * a {
@@ -667,6 +668,7 @@ h2 {
     text-align: center;
     color: #FFFFFF;
     margin-top: 12px;
+    margin-bottom: 22px;
 }
 
 

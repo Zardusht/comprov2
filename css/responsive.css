@@ -155,9 +155,9 @@
         position: absolute;
         top: 60px;
         padding: 10px;
-        width: 100%;
         left: 0px;
-        height: calc(100% - 90px); 
+        width: 100%;
+        height: calc(100% - 60px);
     }
     .nav-bar, 
     .nav-bar ul {
@@ -206,7 +206,10 @@
     }
     .nav-bar {
         width: 100%;
-        height: calc(100vh - 90px);
+        height: calc(100% - 90px);
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
     }
     .bg2 {
         left: 296px;
@@ -222,8 +225,9 @@
         top: 20px;
     }
    .scrool-block {
-       width: 412px;
+       width: 100%;
        margin: 0 auto;
+       left: 0;
    }
    .steps {
        display: flex;
@@ -256,20 +260,6 @@
         height: 100px !important;
 
     }
-    .portfolio_box,
-    .portfolio_box_inner,
-    .portfolio_box_back,
-    .portfolio_box_front,
-    .portfolio_box img,
-    .product_box,
-    .product_box_inner,
-    .product_box_back,
-    .product_box_front,
-    .product_box img {
-        width: 276px;
-        height: 326px !important;
-        border-radius: 20px;
-    }
     footer {
         margin-top: 50px;
     }
@@ -282,11 +272,15 @@
     }
    
 }
-@media only screen and (max-width: 424px){  
+@media only screen and (max-width: 414px){  
     .text_area {
         position: relative;
         width: 300px;
         top: 70px;
+    }
+    .text_area p {
+        width: 300px;
+        font-size: 16px;
     }
     .scrool-block {
         width: 100%;
@@ -304,16 +298,111 @@
     .product_box_back,
     .product_box_front,
     .product_box img {
-        width: 206px !important;
-        height: 256px !important;
+        width: 206px;
+        height: 256px;
+        border-radius: 20px;
+    }
+    .product_box_back, .portfolio_box_back {
+        padding: 15px;
+    }
+    .product_box_back p, .portfolio_box_back p {
+        font-size: 12px;
+    }
+    .step {
+        width: 205px;
+        height: 228px;
+        padding: 17px 20px 30px;
+        box-sizing: border-box;
+    }
+    .step img {
+        width: 100px !important;
+    }
+    
+}
+@media only screen and (max-width: 369px) {
+    .portfolio_box,
+    .portfolio_box_inner,
+    .portfolio_box_back,
+    .portfolio_box_front,
+    .portfolio_box img,
+    .product_box,
+    .product_box_inner,
+    .product_box_back,
+    .product_box_front,
+    .product_box img {
+        width: 176px;
+        height: 226px;
         border-radius: 20px;
     }
     .step {
         width: 175px;
         height: 198px;
+        padding: 17px 20px 30px;
+        box-sizing: border-box;
+    }
+    .step p {
+        font-size: 16px;
     }
     .step img {
-        width: 100px !important;
+        width: 80px !important;
+        height: 80px !important;
+    }
+}
+@media only screen and (max-width: 342px) {
+    .owl-item {
+        margin-right: 30px !important;
+    }
+    .step {
+        width: 175px;
+        height: 198px;
+        padding: 17px 20px 30px;
+        box-sizing: border-box;
+    }
+    .step p {
+        font-size: 16px;
+    }
+    .step img {
+        width: 80px !important;
+        height: 80px !important;
+    }
+}
+@media only screen and (max-width: 324px) {
+    .portfolio_box,
+    .portfolio_box_inner,
+    .portfolio_box_back,
+    .portfolio_box_front,
+    .portfolio_box img,
+    .product_box,
+    .product_box_inner,
+    .product_box_back,
+    .product_box_front,
+    .product_box img {
+        width: 166px;
+        height: 206px;
+        border-radius: 20px;
+    }
+    .product_box_back p, .portfolio_box_back p {
+        font-size: 12px;
+        line-height: 12px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+    .design .service_text p,
+    .seo p, .mob p, .it p, .web p {
+        width: 230px;
+    }
+    .text_area h1 {
+        line-height: 40px;
+    }
+    .text_area h1,
+    .text_area p {
+        width: 270px;
+    }
+    .social_icons a {
+        margin-right: 26px;
+    }
+    .scrool-block {
+        position: absolute;
     }
     
 }
