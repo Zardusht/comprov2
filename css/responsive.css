@@ -304,8 +304,8 @@
     .product_box_back,
     .product_box_front,
     .product_box img {
-        width: 276px;
-        height: 326px !important;
+        width: 226px !important;
+        height: 276px !important;
         border-radius: 20px;
     }
     .step {
