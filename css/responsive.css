@@ -266,8 +266,8 @@
     .product_box_back,
     .product_box_front,
     .product_box img {
-        width: 176px;
-        height: 256px !important;
+        width: 276px;
+        height: 326px !important;
         border-radius: 20px;
     }
     footer {
@@ -304,8 +304,8 @@
     .product_box_back,
     .product_box_front,
     .product_box img {
-        width: 176px;
-        height: 256px !important;
+        width: 276px;
+        height: 326px !important;
         border-radius: 20px;
     }
     .step {
