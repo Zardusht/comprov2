@@ -4,10 +4,12 @@ $(document).ready(function(){
         $('.checkbtn').click(function(){
         if($('#check').prop('checked')==false){
             $('.collapse').toggle();
+            $('body').css('overflow', 'hidden')
         }
         if($('#check').prop('checked')==true){
             $('.collapse').toggle();
             $('.ham').removeClass('active');
+            $('body').css('overflow', 'auto')
         }
         })
         $(".transition").click(function() {
@@ -15,6 +17,7 @@ $(document).ready(function(){
                 $('.collapse').toggle();  
                 $('#check').prop('checked', false);
                 $('.ham').removeClass('active');
+                $('body').css('overflow', 'auto')
             }
         }) 
     } 
