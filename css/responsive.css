@@ -135,6 +135,12 @@
     .nav-bar ul li {
         padding: 0 14px;
     }
+    footer .nav-bar {
+        display: none;
+    }
+    .product_area, .portfolio_area {
+        justify-content: space-around;
+    }
     
     
 
