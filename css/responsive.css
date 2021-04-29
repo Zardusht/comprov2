@@ -1,18 +1,18 @@
 @media only screen and (max-width: 1366px){
-    .text_area h1 {
+/*     .text_area h1 {
         font-size: 62px;
         line-height: 86px;
-    }
+    } */
     .jumbotron {
         height: 768px;
     }
-    .text_area {
+/*     .text_area {
         top: 130px;
-    }
+    } */
     .scrool-block {
         top: 684px;
     }
-    .bg1 {
+/*     .bg1 {
         top: 80px;
     }
     .bg2 {
@@ -26,7 +26,7 @@
     }
     .bg5{
         top: 155px;
-    }
+    } */
     .bg3 img,
     .bg4 img,
     .bg5 img {
